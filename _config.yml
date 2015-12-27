@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Frost's Blog
+subtitle: 冰霜工作室
 description:
-author: John Doe
-language:
+author: frostpeng
+email: xiaokangfrost@qq.com
+language: zh-CN
 timezone:
 
 # URL
