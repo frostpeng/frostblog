@@ -3,6 +3,7 @@ date: 2015-12-24 19:11:12
 tags:
 	- android
 categories: tech
+comments: true
 ---
 ## 引言
 内存泄露是Android开发过程中非常常见的问题，指的是进程中某些已经完成使命的垃圾对象始终占据着内存空间，直接或间接保持对GCROOTS的引用，导致无法被GC回收。对于Android系统而言，因为Android每个进程有自己的内存上限，当app使用内存超过可申请的内存时，就会出现Out Of Memory的错误。如果应用存在内存泄露，出现OOM，很难从堆栈中直接分析出问题原因。

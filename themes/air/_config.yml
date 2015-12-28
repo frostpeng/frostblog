@@ -10,6 +10,7 @@ widgets:
 - recent_posts
 - category
 - tagcloud
+- weibo
 
 
 excerpt_link: Read More
@@ -20,13 +21,9 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
-  weibo: true
-  linkedin: true
-  google: false
-  facebook: true
-  twitter: true
+  weibo: 
 
 copyright:
   enable: false
@@ -38,4 +35,3 @@ fancybox: true
 google_analytics: UA-45019001-1
 analytics_site_name: topdna.org
 rss:
-duoshuo_shortname: frostpeng
