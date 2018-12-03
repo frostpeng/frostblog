@@ -7,11 +7,8 @@ menu:
 widgets:
 - search
 - tag
-- recent_posts
 - category
-- tagcloud
-- weibo
-
+- recent_posts
 
 excerpt_link: Read More
 
@@ -21,12 +18,17 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: false
+  enable: true
   pubid:
-  weibo: 
+  weibo: true
+  linkedin: true
+  google: false
+  facebook: false
+  twitter: false
+  pinterest: false
 
 copyright:
-  enable: false
+  enable: true
   claim: 版权声明：自由转载-非商用-无演绎-保持署名 @ Creative Commons BY-NC-ND 3.0
   show_link: true
 
@@ -35,3 +37,11 @@ fancybox: true
 google_analytics: UA-45019001-1
 analytics_site_name: topdna.org
 rss:
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light

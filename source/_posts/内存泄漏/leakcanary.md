@@ -86,7 +86,7 @@ LeakCanary的源工程地址为<https://github.com/square/leakcanary>。
 		
 ### 3. 一般的输出结果
 
-![输出结果](https://corner.squareup.com/images/leakcanary/leaktrace.png "输出结果")
+![输出结果](leaktrace.png "输出结果")
 
 当发生泄漏时，系统通知栏会弹窗如图左上角所示。并且会在应用中出现一个leaks的入口，点击进去会出现泄露路径相关描述。通过右上角的button可以分享相关的leakInfo以及对应的dump出来的hprof文件。对于hprof文件，可以通过分析其中的KeyedWeakReference的引用（稍后会在原理处说明做法的原因），即可得到内存泄露发生时检测的对象，能够比较快的定位问题。
 	

@@ -1,5 +1,4 @@
 
-
 # Air
 
 Air theme for [Hexo] based on [light] theme.
@@ -14,6 +13,7 @@ Support this project and [others by hustcer][gratipay] via [gratipay][].
 [gratipay-badge]: https://raw.githubusercontent.com/hustcer/htmldemo/master/gittip.png
 [gratipay]: https://gratipay.com/hustcer/
 
+Follow:  <a href="http://www.weibo.com/hustcer"><img src="http://img.t.sinajs.cn/t6/style/images/global_nav/WB_logo.png" height="20" width="70" vertical-align="top" ></a>
 
 ## Demo
 
@@ -94,9 +94,8 @@ rss:
 - **google_analytics** - Google Analytics ID
 - **rss** - RSS subscription link (change if using Feedburner)
 
-## Features
 
-[Hexo]: http://hexo.io/
+[Hexo]: https://hexo.io/
 [light]: https://github.com/hexojs/hexo-theme-light
 [AddThis]: https://www.addthis.com
 [Fancybox]: http://fancyapps.com/fancybox/
